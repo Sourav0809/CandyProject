@@ -9,6 +9,7 @@ const ItemsConatiner = () => {
       {itemCtx.candyList.map((candies) => {
         return (
           <Items
+            id={candies.addedCandyName}
             key={candies.id}
             candyName={candies.addedCandyName}
             candyDes={candies.addedCandyDes}

@@ -1,0 +1,11 @@
+.close-btn {
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(123, 21, 206);
+    border-radius: 7px;
+}
+
+.cart-container-items {
+    display: flex;
+    gap: 10px;
+}
